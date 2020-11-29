@@ -1,0 +1,240 @@
+/**
+ * Feuille de style personnalisée
+ ============================================ */
+
+ .btn-primary {background: #176864;}
+ .btn-primary:hover {background:#0d3d3b;}
+
+ .site-navigation .nav-item .nav-link {font-family: montserrat,sans-serif;
+    color: #A64122;
+    transition: all .3s ease;
+    padding: 15px 18px;
+    position: relative;}
+
+h6 
+   {font-size: 30px;
+   font-weight: 200;}
+
+.site-hero-content h1 
+   {margin-bottom: 0px;}
+
+   h1 {
+      font-size: 75px;
+      margin-top: 75px;}
+
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: brandon grotesque;
+      font-weight: 600;
+      color: #A64122;
+  }
+
+  .site-navigation .nav-item .nav-link {
+   font-family: brandon grotesque;
+   font-weight: 700;
+   font-size: initial;
+   color: #A64122;
+   transition: all .3s ease;
+   padding: 20px 23px;
+   position: relative;
+}
+
+.site-testimonial {
+   background-image: url(../images/backgrounds/sans-titre.png);
+
+   padding: 100px 0;
+   overflow: hidden;}
+
+   .site-cta-title {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 10px;
+      margin-bottom: 60px;
+  }
+
+  .btn-secondary {
+   background: #176864;
+   
+   color: #fff;
+}
+.btn-secondary:hover {
+   background: #0d3d3b;
+   
+   color: #fff;
+}
+
+.section-title h2 {
+   font-weight: 600;
+   letter-spacing: 2px;
+   color: #176864;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   font-size : 30px;
+   text-align: center
+}
+
+.site-project-item-content span, .site-blog-post-content span {
+   font-family: brandon grotesque;
+   color: #176864;
+   display: block;
+   margin-bottom: 10px;
+}
+
+
+h3 {
+   font-size: 25px;
+}
+
+.site-project-cta {
+   margin-top: 30px;
+   display: inline-block;
+   position: relative;
+   font-family: brandon grotesque;
+   font-size: 25px;
+   font-weight: 500;
+   color: #176864;
+   text-align: center;
+}
+
+.site-footer {
+   background: #ffffff;
+   padding: 100px 0;
+   overflow: hidden;
+}
+
+.site-footer-widget-description, .site-footer-widget-title, .site-footer-widget-links li a, .site-footer-widget-description a {
+   color: #A64122;
+   font-family: brandon grotesque;
+}
+
+
+
+
+.site-project-item-content {
+   position: absolute;
+   background: #f7f9ff;
+   width: 100%;
+   padding: 10px 10px;
+   bottom: 0;
+   transition: all .3s cubic-bezier(0.36,0.03,0,0.91);
+}
+
+.hoverplustravaux:hover {
+color: #0d3d3b
+}
+
+.site-project-cta::before { 
+   background: #0d3d3b; 
+}
+
+  .site-project-pagination .pagination .page-item.active .page-link, .site-blog-pagination .pagination .page-item.active .page-link {
+   background-color: #176864;
+   color: #fff;
+}
+
+.site-project-pagination .pagination .page-item .page-link, .site-blog-pagination .pagination .page-item .page-link {
+   font-size: 15px;
+   font-family: helvetica;
+   border-radius: 0;
+   border: none;
+   padding: 12px 20px;
+   color: #176864;
+   font-weight: 800;
+   transition: all .3s ease;
+}
+
+.site-contact-title span {
+   color: #176864 ;
+}
+
+.site-contact-form h4 {
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+   letter-spacing: 3px;
+}
+
+.form-control {
+   background: 0 0;
+   border-radius: 0;
+   margin-bottom: 30px;
+   padding: 0 0 10px;
+   border-width: 0 0 1px;
+   border-color: #176864 ;
+   font-weight: 300;
+   letter-spacing: 1px;
+   -webkit-appearance: none;
+   height: 42px;
+}
+
+.site-about-content {
+   text-align: justify;
+   padding-bottom: 80px;
+}
+
+.site-about-header {
+   background-image: url('/images/backgrounds/photo-about.png');
+   background-repeat: no-repeat;
+   background-position: right;
+   padding-top: 180px;
+}
+
+.sous-texte p {
+   color: #176864;
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 24px;
+   font-family: brandon grotesque;
+}
+
+.site-about-header-content h1 {
+   font-size: 50px;
+   line-height: 55px;
+}
+
+#qui-suis-je- {
+padding-top: 50px;
+font-size: 50px;
+padding-bottom: 40px;
+}
+
+.align-items-center p{
+   color: #176864;
+}
+
+.site-about-header-content {
+   padding-bottom: 50px ;
+}
+
+.competence {
+  color: #176864;
+  padding-top: 50px;
+padding-bottom: 40px;
+}
+
+.competence h2 {
+   padding-top: 10px;
+   margin-top: -40px;
+}
+
+.competence h3 {
+  font-size: 40px;
+}
+
+.site-project-item-content h3 {
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.site-project-single-description a {
+   color: #176864;
+   font-family: brandon grotesque;
+   font-weight: 600;
+}
+
+.link-area {
+   color: #176864;
+   font-family: brandon grotesque;
+   font-weight: 600;
+   font-size: 20px;  
+}

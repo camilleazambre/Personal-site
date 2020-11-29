@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+  {{ if .Content }}
+  <section class="site-about-header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="site-about-header-content">
+            <span>{{ .Params.title | safeHTML }}</span>
+            <h1>
+              {{ .Params.heading | safeHTML }}
+            </h1>
+            <div class= "sous-texte">
+            <p>{{ .Params.description | safeHTML }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-about-content">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 py-6">
+          {{ .Content }}
+        </div>
+        <div class="col-lg-6 col-md-10 mx-auto competence">
+          <center><h3>Compétences</h3></center>
+          <ul></br></br>
+          <li>
+          Réalisation affiches, flyers, logos, illustrations, cartes de visite, mockups, montages vidéo, retouches photos...
+          </li>
+          <li>
+          Conception de site web
+          </li>
+          <li>
+          Analyse des besoins du clients
+          </li>
+          <li>
+          Coordination des différentes étapes d'un projet
+          </li>
+          <li>
+          Gestions administrative
+          </li>
+          </ul>
+        </br>
+      <center><h3>Logiciels maîtrisés</h3></br>
+          <h5>SUITE ADOBE</h5>
+          </br><p>Illustrator - Indesign - Photoshop</br> Première pro - After Effect - Lightroom</p></br>
+          <h5>LANGUAGE</h5>  
+        </br><p>HTML5 - CSS</p></center>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ else }}
+  <section class="site-about-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="site-about-wrapper">
+            <div class="site-about-company">
+              <h1>
+                {{ .Params.heading }}
+              </h1>
+            </div>
+            <div class="site-about-description">
+              <p>
+                {{ .Description }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="site-expertise">
+    <div class="container">
+      <div class="row">
+        {{ with .Params.expertise_title }}
+        <div class="col-md-5">
+          <div class="section-title">
+            <h2>{{ . }}</h2>
+          </div>
+        </div>
+        {{ end }}
+        <div class="col-md-6">
+          <ul class="site-expertise-list">
+            {{ range .Params.expertise_sectors }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "clients.html" . }}
+
+  {{ partial "team.html" . }}
+
+  {{ end }}
+
+  {{ partial "call-to-action.html" . }}
+
+{{ end }}

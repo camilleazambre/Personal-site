@@ -1,0 +1,105 @@
+# baseURL       = "http://example.org/"
+languageCode  = "fr-FR"
+title         = "Camille Azambre | Webdesign & Graphisme"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "ACCUEIL"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "A PROPOS"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "PORTFOLIO"
+    url     = "portfolio"
+    weight  = 3
+  [[menu.nav]]
+    name    = "CONTACT"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/f/xoqpnlpa"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+ 
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "CAMILLE AZAMBRE"
+    tagline               = "WEB DESIGN & GRAPHISME"
+    
+
+  [params.portfolio]
+    enable    = true
+    title     = "MES RECENTS TRAVAUX"
+    subtitle  = ""
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "TRAVAILLONS ENSEMBLE"
+    primary_button      = "C'EST PARTI !"
+    primary_button_url  = "contact"
+    secondary_button_url = "portfolio"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title = "Contact"
+      email   = "camille.azambre.pro@gmail.com"
+      address = "20 B rue Frédéric Bérat <br/> 76140 LE PETIT QUEVILLY"
+      phone   = "06 46 77 81 33"
+      
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Plan du site"
+        [[params.footer.sitemap.link]]
+          name = "A propos"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Portfolio"
+          url  = "portfolio"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Réseaux Sociaux"
+        [[params.footer.social.link]]
+          name = "Linkedin"
+          url  = "https://www.linkedin.com/in/camille-azambre/"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "https://www.instagram.com/az.amzam"
+        [[params.footer.social.link]]
+          name = "Behance"
+          url  = "https://www.behance.net/camilleazambre"
+        [[params.footer.social.link]]
+          name = "Github"
+          url  = "https://github.com/camilleazambre"
+      # Footer Service
+      [params.footer.service]
+        title       = "We help brands:"
+        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
