@@ -12,7 +12,7 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "A PROPOS"
+    name    = "À PROPOS"
     url     = "about"
     weight  = 2
   [[menu.nav]]
@@ -53,7 +53,7 @@ summarylength = 25
 
   [params.portfolio]
     enable    = true
-    title     = "MES RECENTS TRAVAUX"
+    title     = "MES RÉCENTS TRAVAUX"
     subtitle  = ""
 
   [params.call_to_action]
